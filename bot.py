@@ -12,4 +12,4 @@ async def on_ready():
 async def loop():
   status=discord.Activity(name="music on "+str(len(bot.guilds))+" servers!", type=discord.ActivityType.playing)
   await bot.change_presence(activity=status)
-bot.run('NzQ2ODIxNTQ5OTE4NTE5NDE3.X0F5xA.k5YMeuWgbV1F3VT2euMcRP0kmEY')
+bot.run('')
